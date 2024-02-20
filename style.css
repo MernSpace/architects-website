@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.btn-primary{
+    padding: 20px 30px;
+    color: #fff;
+    background: darkorange;
+    border: none;
+    border-radius: 9px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/*header style start*/
+header{
+
+    padding: 30px 240px;
+    background: rgba(255, 144, 14, 0.1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+}
+ul li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #2c2b2b;
+}
+/*header style end*/
+
+
+/*banner style start*/
+.banner{
+    text-align: center;
+}
+
+.banner img{
+    width: 100%;
+}
+
+
+
+.banner-content{
+    text-align: center;
+    margin: 0px auto;
+    max-width: 800px;
+}
+
+
+.banner-title{
+    font-weight: 800;
+    font-size: 4rem;
+    color: #2c2b2b;
+    margin: 50px 0px 10px 0px;
+}
+
+
+.banner-description{
+    color: #2c2b2b;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.btn{
+    margin-bottom: 30px;
+}
+
+
+/*responsive media query*/
+
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    nav h3{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+
+
+
+    nav{
+        flex-direction: column;
+    }
+
+    header{
+        padding: 20px;
+    }
+
+    nav h3{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+}
